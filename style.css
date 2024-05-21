@@ -1,5 +1,8 @@
 body {
     font-family: 'Garamond', sans-serif;
+    background: linear-gradient(to top,#f0f4f7, #d5e0f0, #b1cae1, #92a8d1, #7888c0, #6a70b4, #5b5aa8, #4b469a, #3a338c);
+    color: #fff;
+    transition: background-color 0.5s;
 }
 .tarot-card-main {
     background-image: url('TarotBack.png');
@@ -63,8 +66,9 @@ body {
 
 /* Dark mode styles */
 .dark-mode {
-    background: #121212;
+    background: linear-gradient(to top, #000000, #03002b, #0c0032, #170036, #200033, #25002f, #280027, #2b0020, #2c001a);
     color: #fff;
+    transition: background-color 0.5s;
 }
 
 .dark-mode header {
