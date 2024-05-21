@@ -77,8 +77,7 @@ body {
 
 .dark-mode .tarot-card  {
     color: #fff;
-    border-color: #fff;
-    filter: invert(1);
+    border-color: #fff;  
 }
 
 .dark-mode .tarot-card-back {
