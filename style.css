@@ -1,0 +1,37 @@
+body {
+    font-family: 'Garamond', sans-serif;
+}
+.tarot-card img {
+    background-image: url('TarotBack.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Ensure text is readable on the background */
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.7); /* Add a subtle shadow to the text for better readability */
+}
+
+.tarot-card h2 {
+    background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background for the text */
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    }
+
+/* Dark mode styles */
+.dark-mode {
+    background: #121212;
+    color: #fff;
+}
+
+.dark-mode header {
+    background: #222;
+}
+
+.dark-mode .tarot-card {
+    background: #333;
+    color: #fff;
+    border-color: #fff;
+}
+
+.dark-mode button {
+    background: #444;
+    color: #fff;
+}
